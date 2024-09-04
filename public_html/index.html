@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with RichardBonnegent landing page.">
+    <meta name="author" content="Devcrud">
+    <title>RichardBonnegent Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + RichardBonnegent main styles -->
+	<link rel="stylesheet" href="assets/css/richardbonnegent.css">    
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!--Home Section-->
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/richard.bonnegent" target="_blank"><img src="assets\imgs/facebook.png" alt="Logo Facebook" title="Follow me on Facebook"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://fr.linkedin.com/in/richard-bonnegent-49a24114b" target="_blank"><img src="assets/imgs/linkedin.png" alt="Logo Linkedin"></img></a></li>
+                <li class="social-item"><a class="social-link text-light" href="mailto:richard.bonnegent@gmail.com" target="_blank"><img src="assets/imgs/gmail.png" alt="Logo Gmail"></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/richardbonnegent?igsh=MWZlbm93bWxnbndxYw==" target="_blank"><img src="assets\imgs\instagram.png" alt="Logo Instagram" title="Follow me on Instagram"></img></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/Riakhos/TP.git" target="_blank"><img src="assets/imgs/github.png" alt="Logo Github"></a></li>            
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Bonjour,</h4>
+                <h4 class="header-subtitle" >je suis</h4>
+                <h1 class="header-title">Richard Bonnegent</h1>
+                <h6 class="header-mono">Web Designer | Developer Full Stack</h6>
+                <!-- bouton doit lancer l'impression du CV -->
+                <button class="btn btn-primary btn-rounded" onclick="printfile()"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar-richard.jpeg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Richard Bonnegent</h5>
+                        <div class="brand-subtitle">Developer Back-End | Developer Full Stack</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--About Section-->
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Qui suis- je ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Developer Back-End | Developer Full Stack</h5>
+                <p class="mt-20">Après plusieurs années dans la restauration, j’ai pris la décision de mettre à profits mes connaissances pour pratiquer ma passion de l’informatique et ainsi m’offrir de nouveaux objectifs de carrière dans un domaine plus florissant.<br>Je suis un développeur junior, passionné d’informatique, je suis depuis deux ans des cours à distance grâce auxquels j'ai consolidé mes connaissances et ma maitrise de langage informatique.<br>En effet apprendre de nouveaux langages et résoudre des problèmes, ainsi que parfaire mes connaissances en informatique m'apporte beaucoup de satisfaction.<br>Je cherche actuellement un stage de 2 à 6 mois(à partir de Janvier 2025) pour valider mes acquis, apprendre de nouvelles technologies et connaître un véritable environnement de travail.</p>
+                <!-- bouton doit lancer le téléchargement du CV -->
+                <button class="btn btn-outline-danger"><a id="btn_download_cv" href="assets/imgs/cv_richardbonnegent.pdf" download="CV-Richard-Bonnegent.pdf">Download My CV</a></button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Informations Personnelles</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 15/12/1979 <br>A Verneuil d'Avre et d'Iton <br>France</li>
+                    <li><span>Email</span> : richard.bonnegent@gmail.com</li>
+                    <li><span>Phone</span> : + (33)6.03.16.53.51</li>
+                    <li><span>Zoom</span> : Richard Bonnegent </li>
+                    <li><span>Address</span> :  138 avenue Jean Jaurès <br>95100 Argenteuil</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/richard.bonnegent" target="_blank"><img src="assets\imgs/facebook.png" alt="Logo Facebook" title="Follow me on Facebook"></i></a></li>
+                    <li class="social-item"><a class="social-link text-light" href="https://fr.linkedin.com/in/richard-bonnegent-49a24114b" target="_blank"><img src="assets/imgs/linkedin.png" alt="Logo Linkedin"></img></a></li>
+                    <li class="social-item"><a class="social-link text-light" href="mailto:richard.bonnegent@gmail.com" target="_blank"><img src="assets/imgs/gmail.png" alt="Logo Gmail"></a></li>
+                    <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/richardbonnegent?igsh=MWZlbm93bWxnbndxYw==" target="_blank"><img src="assets\imgs\instagram.png" alt="Logo Instagram" title="Follow me on Instagram"></img></a></li>
+                    <li class="social-item"><a class="social-link text-light" href="https://github.com/Riakhos/TP.git" target="_blank"><img src="assets/imgs/github.png" alt="Logo Github"></a></li>            
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Mon Expérience</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Développeur Web Designer</h6>
+                        <p class="subtitle"> UX/UI Designer (Arborescence, User Flow, Zoning, Wireframe). <br> Utilsation de Figma pour effectuer le Prototypage. <br> Méthode Agile. <br>Responsive Web Design.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Développeur Front-End</h6>
+                        <p class="subtitle">Utilisation de Github.<br>Création de HTML et manipulation de CSS avec Bootstrap.<br>Utilisation de JS et NodeJS.<br>Création d'interface utilisateur et Web native avec React.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Développeur Back-End</h6>
+                        <p class="subtitle">Manipulation de base de donéées avec PHP.<br>Création de base de données avec Mysql et MongoDB. <br>Utilisation de la méthode Merise.<br>Création de projet avec Symfony.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+    <!--*Expertise Section-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">05/2024 - Present</h6>
+                            <P>Developer Web et Web Mobil</P>
+                            <P class="subtitle">Projet Professionnel, créaton d'un site de gestion de Restaurant.</P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - 2024</h6>
+                            <P>Developer Full-Stack</P>
+                            <P class="subtitle">Création de site en HTML5 et CSS3, d'un Portfolio ainsi que de vignettes et pages internet.</P>
+                            <hr>
+                            <h6 class="title text-danger">2005 - 2024</h6>
+                            <P>Directeur de Restaurant</P>
+                            <P class="subtitle">2022 - 2024 Directeur de Restaurant <br>2017 - 2022 Adjoint de Direction <br>2008 - 2017 Gérant de Brasserie <br>2005 - 2008 Hôte de Table</P>
+                        </div>
+                    </div>
+                </div>
+    <!--*Education Section-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2024 - Present</h6>
+                            <P>Developer Web et Web Mobile</P>
+                            <P class="subtitle">Formation BAC +2 <br>Réalisation de projet Front-End et Back-End</P>
+                            <hr>
+                            <h6 class="title text-danger">2022 - 2023</h6>
+                            <P>Création de site</P>
+                            <P class="subtitle">Concevoir un site en HTML5 et CSS3 <br>Concevoir un site avec PHP et MySQL <br>Apprendre à programmer avec JavaScript <br>Tester l'interface de site</P>
+                            <hr>
+                            <h6 class="title text-danger">1998 - 2024</h6>
+                            <P>Etudes Général</P>
+                            <P class="subtitle">2000 - 2004 DEUG de Psychologie <br>1998 - 2000 DEUG de Droit <br>1998 BAC Economique et Social</P>                            
+                        </div>
+                    </div>
+                </div>
+    <!--*Skil and Languages Section-->
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>HTML5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Symfony</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>React</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>French</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Spanish</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+    <!-- Loupe en appuyant sur le nom de l'image -->
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        New
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Advertising
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        Branding
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Web
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-accueil-robbie-lens-photographie.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-accueil-robbie-lens-photographie.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ROBBIE LENS</h6>
+                                    <a href="assets/imgs/web-accueil-robbie-lens-photographie.png" class="subtitle-target" target="_blank">Accueil du site de Robbie Lens photographe!</a>
+                                </div>
+                            </div>
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-a-propos-robbie-lens-photographie.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-a-propos-robbie-lens-photographie.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ROBBIE LENS</h6>
+                                    <a href="assets/imgs/web-a-propos-robbie-lens-photographie.png" class="subtitle-target" target="_blank">Biographie de Robbie Lens photographe!</a>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-dragon.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-dragon.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">DRAGON</h6>
+                                    <a href="assets/imgs/advertising-dragon.jpg" class="subtitle-target" target="_blank">Site de Dragon comprenant des articles!</a>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-portfolio-robbie-lens-photographie.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-portfolio-robbie-lens-photographie.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ROBBIE LENS</h6>
+                                    <a href="assets/imgs/web-portfolio-robbie-lens-photographie.png" class="subtitle-target" target="_blank">Portfolio de Robbie Lens photographe!</a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-maquette.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-maquette.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">MAQUETTE</h6>
+                                    <a href="assets/imgs/advertising-maquette.jpg" class="subtitle-target" target="blank">Site de création de jeux videos</a>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-form-contact.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-form-contact.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ROBBIE LENS</h6>
+                                    <a href="assets/imgs/web-form-contact.png" class="subtitle-target" target="blank">Formulaire de contac pour joindre Robbie Lens photographe!</a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-vignette.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-vignette.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">VIGNETTE</h6>
+                                    <a href="assets/imgs/advertising-vignette.png" class="subtitle-target" target="_blank">Formulaire de coordonnées!</a>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-player.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-player.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">PLAYER</h6>
+                                    <a href="assets/imgs/advertising-player.png" class="subtitle-target" target="_blank">Site de diffusion musicale!</a>
+                                </div>
+                            </div>
+                        </div>                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-techno.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-techno.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TECHNO</h6>
+                                    <a href="assets/imgs/branding-techno.png" class="subtitle-target" target="_blank">Site de nouvelles technologies!</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-zoning.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-zoning.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Zoning</h6>
+                                    <a href="assets/imgs/branding-zoning.png" class="subtitle-target" target="blank">Site de présentation de lieu avec article descriptif!</a>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-snowhunt.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-snowhunt.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Snow Hunt</h6>
+                                    <a href="assets/imgs/branding-snowhunt.png" class="subtitle-target" target="_blank">Spot de glisse!</a>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!--Blog section -->
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Create BDD</h6>
+                        <p class="post-details">
+                            <!-- link person post -->
+                            <a href="https://www.facebook.com/richard.bonnegent" target="_blank">By: Richard</a>
+                            <!-- link like post -->
+                            <button class="ti-heart" onclick="incrementLike()" title="Like Me">👍 Like</button>
+                            <span class="like-count" id="like-count">234</span>
+                            <!--! BDD pour stocker les likes en mémoires -->
+                            <!-- link create comment post -->
+                            <div class="comment-section">
+                            <!--! BDD pour stocker les commentaires en mémoires -->
+                                <button class="ti-comment" onclick="incrementComment()"> Comment</button>
+                                <span class="comment-count" id="comment-count">123</span>
+                            </div>                      
+                        </p>                        
+                        <p>La création d'une base de données pour des livres et des auteurs à partir de jMerise pour effectuer le MCD et le sql.</p>
+                        <p><b>Les BDD ont été faites sous Xampp et sous MongoDB.</b></p>
+                        <p>Elles permettent le référencement des auteurs, des livres et des magasins...</p>
+                        <!-- link du project sur Github -->
+                        <a href="https://github.com/Riakhos/Learning-Language/blob/main/mongodb/bookstp/bookstp.mongodb.js" class="read-more" target="_blank">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Site  de Robbie Lens</h6>
+                        <p class="post-details">
+                            <!-- link person post -->
+                            <a href="https://www.facebook.com/richard.bonnegent" target="_blank">By: Richard</a>
+                            <!-- link like post -->
+                            <button class="ti-heart" onclick="incrementLike1()">👍 Like</button>
+                            <span class="like-count1" id="like-count1">456</span>
+                            <!--! BDD pour stocker les likes en mémoires -->
+                            <!-- link create comment post -->
+                             <div class="comment-section">
+                            <!--! BDD pour stocker les commentaires en mémoires -->
+                                <button class="ti-comment" onclick="incrementComment1()"> Comment</button>
+                                <span class="comment-count1" id="comment-count1">264</span>
+                            </div>                          
+                        </p>                        
+                        <p>Il s'agit de la création d'un site internet pour un photographe.<br>Comprenant un portfolio, une biographie, la tarification de son travail et un formulaire de contact.<br>Ce travail c'est effectué uniquement en <b>HTML5 et CSS3</b>. Danc le but de comprendre comment manipuler le html à l'aide du css afin d'effectuer du Front-End.<br>Par la suite les travaux comme celui-ci s'effectueront avec <b>Bootstrap</b>.</p>
+                        <!-- link du project sur Github -->
+                        <a href="https://github.com/Riakhos/TP/tree/main/TP%20robbie_lens" class="read-more" target="_blank">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Blog Techno</h4>
+                        <p class="post-details">
+                            <!-- link person post -->
+                            <a href="https://www.facebook.com/richard.bonnegent" target="_blank">By: Richard</a>
+                            <!-- link like post -->
+                            <button class="ti-heart" onclick="incrementLike2()">👍 Like</button>
+                            <span class="like-count2" id="like-count2">431</span>
+                            <!--! BDD pour stocker les likes en mémoires -->
+                            <!-- link create comment post -->
+                            <div class="comment-section">
+                            <!--! BDD pour stocker les commentaires en mémoires -->
+                                <button class="ti-comment" onclick="incrementComment2()"> Comment</button>
+                                <span class="comment-count2" id="comment-count2">312</span>
+                            </div>
+                        </p>                        
+                        <p>Ici nous avons créer une page en tant que blog.<br>On cherche à effectuer des articles pour mettre en avant les nouvelles technologies avec des tutoriels et des présentations. <br> On aura également une partie interactive dans la suite du projet pour que les utilisateurs puissent échanger sur les sujets.</p>
+                        <!-- link du project sur Github -->
+                        <a href="https://github.com/Riakhos/TP/tree/main/TP%20%20blog%20techno" class="read-more" target="_blank">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+            </div>
+        </div>
+    </section>
+    <!--Contact Section-->   
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+    <!-- Envoyer un message dans la boite mail -->
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="https://formspree.io/f/xnnawqzl" method="post">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" name="nom" placeholder="Name *" required="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="_replyto" placeholder="Email *" required="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="hidden" name="_subject" value="Contact Form Submission">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" placeholder="Message *" rows="7" required=""></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" value="Submit" class="form-control btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (33)603165351</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">138 avenue Jean Jaurès 95100 Argenteuil FRANCE.</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">richard.bonnegent@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-3">
+                            <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/richard.bonnegent" target="_blank"><img src="assets\imgs/facebook.png" alt="Logo Facebook" title="Follow me on Facebook"></i></a></li>
+                            <li class="social-item"><a class="social-link text-light" href="https://fr.linkedin.com/in/richard-bonnegent-49a24114b" target="_blank"><img src="assets/imgs/linkedin.png" alt="Logo Linkedin"></img></a></li>
+                            <li class="social-item"><a class="social-link text-light" href="mailto:richard.bonnegent@gmail.com" target="_blank"><img src="assets/imgs/gmail.png" alt="Logo Gmail"></a></li>
+                            <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/richardbonnegent?igsh=MWZlbm93bWxnbndxYw==" target="_blank"><img src="assets\imgs\instagram.png" alt="Logo Instagram" title="Follow me on Instagram"></img></a></li>
+                            <li class="social-item"><a class="social-link text-light" href="https://github.com/Riakhos/TP.git" target="_blank"><img src="assets/imgs/github.png" alt="Logo Github"></a></li>            
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">RichardBonnegent</a> 
+            </p>
+        </div>
+    </footer>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+    <!-- RichardBonnegent js -->
+    <script src="assets/js/richardbonnegent.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+</html>
